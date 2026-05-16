@@ -1,0 +1,6 @@
+Bugcheck_String,Faulting_Module,Crash_Code,Label
+0xA,ntoskrnl.exe,IRQL_NOT_LESS_OR_EQUAL,Lỗi Driver/Hệ điều hành
+0x1A,nt!MmAccessFault,MEMORY_MANAGEMENT,Lỗi Phần cứng (RAM)
+0x3B,win32k.sys,SYSTEM_SERVICE_EXCEPTION,Lỗi Driver Đồ họa
+0x50,srv2.sys,PAGE_FAULT_IN_NONPAGED_AREA,Lỗ hổng Mạng (Gợi ý: CVE-2020-0796)
+0xC0000005,http.sys,ACCESS_VIOLATION,Lỗ hổng Bảo mật (Gợi ý: CVE-2022-21907)

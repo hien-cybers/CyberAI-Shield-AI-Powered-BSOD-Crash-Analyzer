@@ -1,0 +1,20 @@
+ADDITIONAL_DEBUG_TEXT:  
+You can run '.symfix; .reload' to try to fix the symbol path and load symbols.
+
+FAULTING_MODULE: fffff80002e1c000 nt
+
+DEBUG_FLR_IMAGE_TIMESTAMP:  4a5bc600
+
+BUGCHECK_STR:  0xA
+
+CUSTOMER_CRASH_COUNT:  1
+
+DEFAULT_BUCKET_ID:  VISTA_DRIVER_FAULT
+
+CURRENT_IRQL:  2
+
+FAULTING_IP: 
+nt!KiInsertTimerTable+13e
+fffff800`02e970be 488b4318        mov     rax,qword ptr [rbx+18h]
+
+CRASH_CODE: IRQL_NOT_LESS_OR_EQUAL
